@@ -1,0 +1,13 @@
+.header__lang-link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header__lang-link:first-of-type {
+  margin-right: 18px;
+}

@@ -1,0 +1,7 @@
+.footer__link-container {
+  padding: 32px 0 0 0;
+}
+
+.footer__link-container:first-of-type {
+  padding: 0;
+}
