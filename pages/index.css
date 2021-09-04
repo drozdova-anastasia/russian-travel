@@ -27,7 +27,6 @@
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__image/card__image.css);
-@import url(../blocks/card/__url-heading/card__url-heading.css);
 @import url(../blocks/card/__link/card__link.css);
 @import url(../blocks/card/__paragraph/card__paragraph.css);
 @import url(../blocks/link/link.css);
@@ -79,7 +78,19 @@
     gap: 16px;
   }
 
+  .places {
+    padding: 88px 0 90px 0;
+  }
   .card {
+    padding: 0 24px 73px 24px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, min-content);
+    grid-template-areas:
+      "title link"
+      "image description";
+    gap: 48px 28px;
+  }
+  .card:last-of-type {
     padding: 0 24px 0 24px;
   }
   .card__title {
@@ -125,8 +136,30 @@
     gap: 14px;
   }
 
+  .places {
+    padding: 92px 0 92px 0;
+  }
   .card {
+    padding: 0 48px 80px 48px;
+  }
+  .card:last-of-type {
     padding: 0 48px 0 48px;
+  }
+  .card__title {
+    font-size: 72px;
+    line-height: 76px;
+  }
+  .card__url-heading {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .card__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+    padding: 0 0 27px 0;
+  }
+  .card__paragraph:last-of-type {
+    padding: 0;
   }
 
   .header {

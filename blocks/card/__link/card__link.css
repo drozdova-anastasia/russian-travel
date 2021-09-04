@@ -9,4 +9,16 @@
   text-decoration-line: underline;
   color: #FFFFFF;
   grid-area: link;
+  position: relative;
+  align-self: end;
 }
+
+/*.card__link::before {
+  content: "URL";
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #AAAAAA;
+  position: absolute;
+  bottom: 34px;
+}*/
