@@ -33,6 +33,8 @@
 @import url(../blocks/link/link.css);
 
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
@@ -105,6 +107,20 @@
     padding: 0;
   }
 
+  .cover {
+    padding: 115px 0;
+  }
+  .cover__title {
+    font-size: 72px;
+    line-height: 76px;
+    max-width: 560px;
+  }
+  .cover__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 360px;
+  }
+
   .footer {
     flex-direction: row;
     padding: 88px 24px 24px 24px;
@@ -130,8 +146,8 @@
 }
 
 @media (min-width: 1024px) {
-  .footer {
-    padding: 92px 48px 24px 48px;
+  .header {
+    padding: 28px 48px 48px 48px;
   }
 
   .lead {
@@ -184,8 +200,12 @@
     padding: 0;
   }
 
-  .header {
-    padding: 28px 48px 48px 48px;
+  .cover {
+    padding: 232px 0;
+  }
+
+  .footer {
+    padding: 92px 48px 24px 48px;
   }
 }
 
@@ -201,5 +221,9 @@
   .photo-gallery {
     padding: 0 48px 0 48px;
     gap: 16px;
+  }
+
+  .cover {
+    padding: 312px 0;
   }
 }
