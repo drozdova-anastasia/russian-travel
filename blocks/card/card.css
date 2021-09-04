@@ -2,5 +2,13 @@
   /*max-width: 984px;*/
   padding: 0 16px 0 16px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
+  align-items: end;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, min-content);
+  grid-template-areas:
+  "title url-heading"
+  "title link"
+  "image p"
+  "image p";
+  /*grid-template-columns: repeat(auto-fit, minmax(284px, max-content));*/
 }
