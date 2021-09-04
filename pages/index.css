@@ -54,16 +54,19 @@
   }
 
   .lead__title {
-    padding: 0 0 0 32px;
+    padding: 0 0 32px 0;
     max-width: 720px;
     font-size: 96px;
     line-height: 100px;
   }
   .lead__subtitle {
-    padding: 0 0 0 56px;
+    padding: 0 0 56px 0;
     max-width: 640px;
     font-size: 30px;
     line-height: 36px;
+  }
+  .lead__caption {
+    padding: 8px 0 0 24px;
   }
 
   .intro {
@@ -131,8 +134,24 @@
     padding: 92px 48px 24px 48px;
   }
 
+  .lead {
+    padding: 0 48px 0 48px;
+  }
+  .lead__caption {
+    padding: 8px 0 0 0;
+  }
+
   .intro {
     padding: 82px 48px 92px 48px;
+  }
+  .intro__title {
+    max-width: 690px;
+  }
+  .intro__text {
+    max-width: 690px;
+  }
+  .intro__facts {
+    max-width: 690px;
   }
 
   .photo-gallery {
@@ -176,7 +195,7 @@
   }
 
   .lead__subtitle {
-    padding: 0 0 0 64px;
+    padding: 0 0 64px 0;
   }
 
   .photo-gallery {

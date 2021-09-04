@@ -1,6 +1,4 @@
 .lead__image {
-  width: 142px;
-  height: 42px;
+  max-width: 100%;
   object-fit: cover;
-  object-position: left top;
 }

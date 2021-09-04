@@ -1,5 +1,6 @@
 .lead {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  justify-items: center;
+  max-width: 984px;
+  margin: 0 auto;
 }
