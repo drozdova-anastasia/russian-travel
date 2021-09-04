@@ -37,6 +37,7 @@
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
 @import url(../blocks/footer/footer.css);
@@ -94,7 +95,7 @@
   }
   .card {
     padding: 0 24px 73px 24px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns:  0.983fr 1.017fr;
     grid-template-rows: repeat(2, min-content);
     grid-template-areas:
       "title link"
@@ -119,6 +120,7 @@
     font-size: 72px;
     line-height: 76px;
     max-width: 560px;
+    padding: 0 0 32px 0;
   }
   .cover__subtitle {
     font-size: 18px;
@@ -163,7 +165,7 @@
   }
 
   .intro {
-    padding: 82px 48px 92px 48px;
+    padding: 92px 48px;
   }
   .facts {
     max-width: 690px;
@@ -181,6 +183,7 @@
   }
   .card {
     padding: 0 48px 80px 48px;
+    gap: 48px 32px;
   }
   .card:last-of-type {
     padding: 0 48px 0 48px;
@@ -188,9 +191,6 @@
   .card__title {
     font-size: 72px;
     line-height: 76px;
-  }
-  .card__link::before {
-    line-height: 20px;
   }
   .card__paragraph {
     font-size: 18px;
@@ -202,7 +202,7 @@
   }
 
   .cover {
-    padding: 232px 0;
+    padding: 195px 0;
   }
 
   .footer {
@@ -226,7 +226,17 @@
     gap: 16px;
   }
 
+  .card {
+    gap: 48px 40px;
+  }
+  .card__paragraph {
+    padding: 0 0 26px 0;
+  }
+  .card__paragraph:last-of-type {
+    padding: 0;
+  }
+
   .cover {
-    padding: 312px 0;
+    padding: 245px 0;
   }
 }
