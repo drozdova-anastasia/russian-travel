@@ -15,15 +15,18 @@
 @import url(../blocks/lead/__caption/lead__caption.css);
 
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__title/intro__title.css);
-@import url(../blocks/intro/__text/intro__text.css);
-@import url(../blocks/intro/__facts/intro__facts.css);
-@import url(../blocks/intro/__fact/intro__fact.css);
+@import url(../blocks/facts/facts.css);
+@import url(../blocks/facts/__title/facts__title.css);
+@import url(../blocks/facts/__text/facts__text.css);
+@import url(../blocks/facts/__digits/facts__digits.css);
+@import url(../blocks/facts/__digit/facts__digit.css);
 
 @import url(../blocks/photo-gallery/photo-gallery.css);
+@import url(../blocks/photo-gallery/__items/photo-gallery__items.css);
 @import url(../blocks/photo-gallery/__item/photo-gallery__item.css);
 
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/__content/places__content.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__image/card__image.css);
@@ -74,13 +77,15 @@
   .intro {
     padding: 88px 24px 88px 24px;
   }
-  .intro__title {
+  .facts__title {
     font-size: 54px;
     line-height: 58px;
   }
 
   .photo-gallery {
     padding: 0 24px 0 24px;
+  }
+  .photo-gallery__items {
     gap: 16px;
   }
 
@@ -160,18 +165,14 @@
   .intro {
     padding: 82px 48px 92px 48px;
   }
-  .intro__title {
-    max-width: 690px;
-  }
-  .intro__text {
-    max-width: 690px;
-  }
-  .intro__facts {
+  .facts {
     max-width: 690px;
   }
 
   .photo-gallery {
     padding: 0 48px 0 48px;
+  }
+  .photo-gallery__items {
     gap: 14px;
   }
 
@@ -220,6 +221,8 @@
 
   .photo-gallery {
     padding: 0 48px 0 48px;
+  }
+  .photo-gallery__items {
     gap: 16px;
   }
 
