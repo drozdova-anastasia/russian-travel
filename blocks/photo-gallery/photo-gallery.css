@@ -1,0 +1,7 @@
+.photo-gallery {
+  padding: 0 16px 0 16px;
+
+  /*display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(9, 1fr);*/
+}

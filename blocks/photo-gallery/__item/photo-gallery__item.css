@@ -1,0 +1,5 @@
+.photo-gallery__item {
+  width: calc(100vw - 32px);
+  width: calc((100vw - 32px) * 0.75);
+  object-fit: fill;
+}
