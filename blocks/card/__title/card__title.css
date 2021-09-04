@@ -1,0 +1,10 @@
+.card__title {
+  margin: 0;
+  padding: 0 0 32px 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  color: #ffffff;
+}
