@@ -1,24 +1,24 @@
 .card__link {
   margin: 0;
-  padding: 0;
+  padding: 34px 0 0 0;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
-  color: #FFFFFF;
+  color: #ffffff;
   grid-area: link;
   position: relative;
   align-self: end;
 }
 
-/*.card__link::before {
+.card__link::before {
   content: "URL";
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
-  color: #AAAAAA;
+  color: #aaaaaa;
   position: absolute;
   bottom: 34px;
-}*/
+}

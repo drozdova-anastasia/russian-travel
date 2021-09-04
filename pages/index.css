@@ -28,6 +28,7 @@
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__description/card__description.css);
 @import url(../blocks/card/__paragraph/card__paragraph.css);
 @import url(../blocks/link/link.css);
 
@@ -97,6 +98,9 @@
     font-size: 42px;
     line-height: 46px;
   }
+  .card__link {
+    padding: 0;
+  }
 
   .footer {
     flex-direction: row;
@@ -149,8 +153,7 @@
     font-size: 72px;
     line-height: 76px;
   }
-  .card__url-heading {
-    font-size: 12px;
+  .card__link::before {
     line-height: 20px;
   }
   .card__paragraph {

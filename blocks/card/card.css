@@ -1,18 +1,18 @@
 .card {
   max-width: 984px;
-  padding: 0 16px 50px 16px;
+  padding: 0 0 50px 0;
   display: grid;
   align-items: start;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: 0 1fr 0;
   grid-template-rows: repeat(4, min-content);
   grid-template-areas:
-    "title"
-    "link"
-    "image"
-    "description";
-    gap: 32px;
+    ". title ."
+    ". link ."
+    "image image image"
+    ". description .";
+  gap: 32px 16px;
 }
 
 .card:last-of-type {
-  padding: 0 16px 0 16px;
+  padding: 0;
 }
