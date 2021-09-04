@@ -1,5 +1,4 @@
 .photo-gallery__item {
-  width: calc(100vw - 32px);
-  width: calc((100vw - 32px) * 0.75);
-  object-fit: fill;
+  max-width: 100%;
+  object-fit: cover;
 }
