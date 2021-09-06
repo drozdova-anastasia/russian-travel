@@ -4,3 +4,10 @@
   object-fit: cover;
   object-position: left top;
 }
+
+@media (min-width: 768px) {
+  .header__logo {
+    width: 176px;
+    height: 52px;
+  }
+}

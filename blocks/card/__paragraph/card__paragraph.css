@@ -12,3 +12,23 @@
 .card__paragraph:last-of-type {
   padding: 0;
 }
+
+@media (min-width: 1024px) {
+  .card__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+    padding: 0 0 27px 0;
+  }
+  .card__paragraph:last-of-type {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .card__paragraph {
+    padding: 0 0 26px 0;
+  }
+  .card__paragraph:last-of-type {
+    padding: 0;
+  }
+}

@@ -10,3 +10,18 @@
   text-align: center;
   color: #ffffff;
 }
+
+@media (min-width: 768px) {
+  .lead__subtitle {
+    padding: 0 0 56px 0;
+    max-width: 640px;
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__subtitle {
+    padding: 0 0 64px 0;
+  }
+}

@@ -16,3 +16,34 @@
 .card:last-of-type {
   padding: 0;
 }
+
+@media (min-width: 768px) {
+  .card {
+    padding: 0 24px 73px 24px;
+    grid-template-columns: 0.983fr 1.017fr;
+    grid-template-rows: repeat(2, min-content);
+    grid-template-areas:
+      "title link"
+      "image description";
+    gap: 48px 28px;
+  }
+  .card:last-of-type {
+    padding: 0 24px 0 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    padding: 0 48px 80px 48px;
+    gap: 48px 32px;
+  }
+  .card:last-of-type {
+    padding: 0 48px 0 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .card {
+    gap: 48px 40px;
+  }
+}

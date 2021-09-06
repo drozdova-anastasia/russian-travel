@@ -5,3 +5,12 @@
 .footer__link-container:first-of-type {
   padding: 0;
 }
+
+@media (min-width: 768px) {
+  .footer__link-container {
+    padding: 0 0 0 18px;
+  }
+  .footer__link-container:first-of-type {
+    padding: 0;
+  }
+}

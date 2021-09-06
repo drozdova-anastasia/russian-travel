@@ -9,3 +9,11 @@
   line-height: 14px;
   color: #ffffff;
 }
+
+@media (min-width: 768px) {
+  .footer__copyright {
+    padding: 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
