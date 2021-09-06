@@ -1,21 +1,27 @@
 .photo-gallery {
   padding: 0 16px 0 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
+  gap: 12px;
 }
 
 @media (min-width: 768px) {
   .photo-gallery {
     padding: 0 24px 0 24px;
+    gap: 16px;
   }
 }
 
 @media (min-width: 1024px) {
   .photo-gallery {
     padding: 0 48px 0 48px;
+    gap: 14px;
   }
 }
 
 @media (min-width: 1280px) {
   .photo-gallery {
     padding: 0 48px 0 48px;
+    gap: 16px;
   }
 }

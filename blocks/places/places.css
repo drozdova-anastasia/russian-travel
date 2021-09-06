@@ -1,5 +1,8 @@
 .places {
   padding: 64px 0 66px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
