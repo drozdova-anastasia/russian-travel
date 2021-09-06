@@ -22,6 +22,7 @@
 @import url(../blocks/facts/__text/facts__text.css);
 @import url(../blocks/facts/__digits/facts__digits.css);
 @import url(../blocks/facts/__digit/facts__digit.css);
+@import url(../blocks/facts/__digit-name/facts__digit-name.css);
 
 @import url(../blocks/photo-gallery/photo-gallery.css);
 @import url(../blocks/photo-gallery/__items/photo-gallery__items.css);
