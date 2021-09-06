@@ -4,11 +4,14 @@
   background-position: center;
   max-width: 1184px;
   margin: 0 auto;
-  padding: 33px 16px;
+  min-height: 200px;
   position: relative;
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  gap: 16px;
 }
 
-.cover::before {
+.cover:before {
   content: "";
   display: block;
   background: #2a2c2f;
@@ -26,20 +29,22 @@
   cursor: pointer;
 }
 
+
 @media (min-width: 768px) {
   .cover {
-    padding: 115px 0;
+    gap: 32px;
+    min-height: 480px;
   }
 }
 
 @media (min-width: 1024px) {
   .cover {
-    padding: 195px 0;
+    min-height: 640px;
   }
 }
 
 @media (min-width: 1280px) {
   .cover {
-    padding: 245px 0;
+    min-height: 740px;
   }
 }
